@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="npm i bootstrap-icons">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>Responsive Company website with bootstrap</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!----===========navbar================-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">CreaBrand</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false">
+    
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-items"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-items"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-items"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-items"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-items"><a class="nav-link" href="#faq">FAQ</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!----===========header================-->
+
+<header class="bg-primary d-flex align-items-center text-white pt-3 mt-5">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-5">
+                <h1 class="Header-title">Discover <br>What We Can <br>Achieve Together</h1>
+                <p>Join us on a journey of innovation and succes . We are commited to delivering solutions that elevate
+                     your bussiness and turn your vision into reality</p>
+                     <div class="d-flex gap-3 mb-3">
+                        <button class="btn yellow">Discover More</button>
+                        <button class="btn green">Get Started</button>
+                     </div>
+            </div>
+            <div class="col-md-7">
+                <img src="/image1.jpg" class="img-fluid"  alt="Header image">
+            </div>
+        </div>
+    </div>
+</header>
+<!----===========client================-->
+
+<section id="clients" class="bg-light py-5">
+    <div class="container">
+        <div class="d-flex flex-wrap justify-content-center gap-2">
+            <img class="client-img img-fluid" src="/logoipsum-380.png" alt="client-1">
+             <img class="client-img img-fluid" src="/logoipsum-317.png" alt="client-2">
+              <img class="client-img img-fluid" src="/logoipsum-311.png" alt="client-3">
+               <img class="client-img img-fluid" src="/logoipsum-260.png" alt="client-4">
+        </div>
+    </div>
+</section>
+<!----===========services================-->
+
+<section id="services" class="py-5">
+    <div class="container">
+        <h2 class="title text-center">Solutions We Offer</h2>
+        <div class="row text-center">
+            <div class="col-lg-3 col-sm-6 my-2">
+                <div class="card card-service yellow py-4">
+                    <div class="card-body">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+  <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
+</svg>
+                        <h5 class="card-title mt-3">Web Development</h5>
+                        <p class="card-text">Crafting sleek and powerful Website</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-2">
+                <div class="card card-service yellow py-4">
+                    <div class="card-body">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+  <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+</svg>
+                        <h5 class="card-title mt-3">Mobile Apps</h5>
+                        <p class="card-text">Building apps that bring idea to your life</p>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-sm-6 my-2">
+                <div class="card card-service yellow py-4">
+                    <div class="card-body">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+  <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0"/>
+  <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z"/>
+</svg>
+                        <h5 class="card-title mt-3">Tech Support</h5>
+                        <p class="card-text">Crafting sleek and powerful Website</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-2">
+                <div class="card card-service yellow py-4">
+                    <div class="card-body">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-graph-up" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07"/>
+</svg>
+                        <h5 class="card-title mt-3">SEO Support</h5>
+                        <p class="card-text">Optimize website to rank higher on search engine</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!----===========about================-->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left side: Image -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img src="/image3.jpg" alt="Office Image" class="img-fluid rounded">
+      </div>
+
+      <!-- Right side: Stats Boxes -->
+      <div class="col-md-6">
+        <h1>Discover our Journey Innovating Today for a Better Tomorrow</h1>
+        <br>
+
+        <p>At our core, we are innovators, creators, and problem-solvers, With 
+            a passion for excellence, we blend creativity and technology to deliver
+            solutions that push the boundaries of what's possible.<br>
+        </p>
+        <p class="text-center mb-4">
+          Every project we undertake is a step towards shaping a better future for our clients.
+        </p>
+
+        <div class="row text-center">
+          <div class="col-sm-4 my-2">
+            <div class="card py-4 yellow">
+              <h3>150+</h3>
+              <p>Trusted Partners</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4 my-2">
+            <div class="card py-4 yellow">
+              <h3>300+</h3>
+              <p>Accomplished Goals</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4 my-2">
+            <div class="card py-4 yellow">
+              <h3>10+</h3>
+              <p>Years of Experience</p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <button class="btn btn-dark btn-about">Learn More</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!----===========portfolio================-->
+
+<section id="portfolio" class="green py-5">
+    <div class="container">
+        <h2 class="title text-center">Latest Showcase</h2>
+        <div class="row text-center">
+            <div class="col-lg-4 col-sm-6 my-2">
+                <div class="card portfolio-card">
+                    <img src="/image4.jpg" class="portfolio-img" alt="portfolio 1">
+                    <div class="portfolio-description">
+                        <h5 class="card-title">Innovative Project</h5>
+                        <p>Crafting exceptional through innovative designs</p>
+                    </div>
+                </div>
+            </div>
+              <div class="col-lg-4 col-sm-6 my-2">
+                <div class="card portfolio-card">
+                    <img src="/image5.jpg" class="portfolio-img" alt="portfolio 2">
+                    <div class="portfolio-description">
+                        <h5 class="card-title">Dynamic Project</h5>
+                        <p>Transforming ideas into reality with dynamic, user-centric solutions</p>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-4 col-sm-6 my-2">
+                <div class="card portfolio-card">
+                    <img src="/image5.jpeg" class="portfolio-img" alt="portfolio 3">
+                    <div class="portfolio-description">
+                        <h5 class="card-title">Creative Project</h5>
+                        <p>Where creativity meets technology, resulting in remarkable outcomes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!----===========faq================-->
+<section id="faq" class="py-5">
+    <div class="container">
+        <h2 class="title text-center">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="accordionFAQ">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                        How does our services benefit your bussiness?
+                    </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                    <div class="accordion-body">Our services are designed to increase efficiency, reduce costs, and ultimately boost your bottom line</div>
+                </div>
+            </div>
+             <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                      What Industries do we serve?
+                    </button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                    <div class="accordion-body">We serve a wide range of industries including technology, finance, healthcare, and more.</div>
+                </div>
+            </div>
+            
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                      What is out approach to project management?
+                    </button>
+                </h2>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                    <div class="accordion-body">We use a client-centric approach, ensuring that every project is tailored to meet your specific needs and goals.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!----===========footer================-->
+<footer class="footer bg-dark text-white py-3 text-center">
+    <p class="mb-0">&copy; 2024 CreaBrand. All rights reserved</p>
+</footer>
+
+
+
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
